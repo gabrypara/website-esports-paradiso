@@ -1,0 +1,108 @@
+body{
+    background-color: #f0f0f4;
+    color: #292929;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:inherit;
+    font-size: larger;
+}
+
+.intro h1{
+    font-size: xx-large;
+}
+
+.bedwar{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    display: block;
+}
+
+.banner{
+    font-family: fantasy;
+    position:relative;
+    text-align: center;
+}
+
+.banner > h1{
+    font-size: 110px;
+    position:absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner > h2{
+    font-size: 35px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop_title{
+    padding-left: 200px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    justify-content:space-around;
+}
+
+.teams_intro{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.team_tables {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 40px;
+}
+
+.team_tables table {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); 
+}
+
+.team_tables thead {
+    background-color: #19191a;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.team_tables th {
+    padding: 20px 24px;
+    text-align: left;
+}
+
+.team_tables td {
+    padding: 18px 24px;
+    color: #333336;
+}
+
+.team_tables tbody tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
+
+.team_tables tbody tr:hover {
+    background-color: #eef2ff;
+    cursor: pointer;
+}
