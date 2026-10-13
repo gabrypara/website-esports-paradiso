@@ -1,7 +1,7 @@
 body{
     background-color: #f0f0f4;
     color: #292929;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar ul{
@@ -120,4 +120,52 @@ body{
     justify-content: center;
     text-align: center;
     padding: 0 20px;
+}
+
+.joinUs {
+    background-color: rgba(15,16,21,1);
+    color: #eef2ff;
+    padding: 60px 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.joinUs h2 {
+    font-weight: 100;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.requirements li{
+    letter-spacing: 2px;
+    display: flex;
+    text-decoration: none;
+    border-left: 4px solid #ff4655;
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+
+.requirements li:hover{
+    background-color:#ff4656ab;
+}
+
+.apply h2{
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+.apply p{
+    font-size: larger;
+    font-family: monospace;
+}
+
+.requirements-grid{
+    display: grid;
+}
+
+.req-card h4{
+    font-weight: bolder;
+    margin-bottom: 3px;
+    
 }
