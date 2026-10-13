@@ -11,6 +11,7 @@ body{
     gap: 80px;
     padding-left: 200px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar a{
@@ -108,6 +109,7 @@ body{
 }
 
 .about-header {
+    font-size:x-large;
     font-family: fantasy;
     color: #ffffff;
     height: 75vh;
